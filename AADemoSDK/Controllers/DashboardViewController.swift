@@ -20,7 +20,7 @@ public class DashboardViewController: UIViewController {
     @IBAction func clickEvent(_ sender: Any) {
         let alert = UIAlertController.init(title: "Success!", message: "SDK Working Properly", preferredStyle: .alert)
         alert.addAction(UIAlertAction.init(title: "OK", style: .default, handler: { (action: UIAlertAction) in
-//            self.dismiss(animated: true, completion: nil)
+            self.dismiss(animated: true, completion: nil)
         }))
         present(alert, animated: true, completion: nil)
     }
