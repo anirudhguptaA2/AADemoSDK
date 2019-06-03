@@ -8,10 +8,10 @@
 
 import UIKit
 
-class DashboardViewController: UIViewController {
+public class DashboardViewController: UIViewController {
 
-    @IBOutlet weak var textLabel: UILabel!
-    override func viewDidLoad() {
+    @IBOutlet public weak var textLabel: UILabel!
+    override public func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
